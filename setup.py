@@ -12,6 +12,7 @@ setup(
     license='MIT',
     py_modules=['tattler'],
     install_requires=[
+        'nose',
         'mock',
     ],
     entry_points = {
