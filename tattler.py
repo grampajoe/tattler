@@ -68,7 +68,7 @@ class Tattler(Plugin):
     # Nose plugin hooks
 
     def options(self, parser, env=os.environ):
-        parser.add_option('-t', '--tattle-on', action='append',
+        parser.add_option('--tattle-on', action='append',
                           dest='tattle_on')
         super(Tattler, self).options(parser, env=env)
 

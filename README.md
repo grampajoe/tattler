@@ -14,7 +14,7 @@ tattled on.
 
 Have nose tell you about function and method usage like so:
 
-    $ nosetests --with-tattler -t path.to.function -t path.to.object.method
+    $ nosetests --with-tattler --tattle-on path.to.function
 
 A tattler.TattleTale exception will then be raised whenever one of those
 functions gets called during test execution, and those tests will be reported
